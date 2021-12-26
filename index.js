@@ -1,6 +1,5 @@
 const minimist = require('minimist');
 const { version } = require('./package.json');
-const keywordSearch = require('./util/search_keyword');
 const search_keyword = require('./utils/search_keyword');
 const printReadingList = require('./utils/printReadingList');
 
@@ -18,7 +17,7 @@ module.exports = () => {
   
     switch (command) {
       case 'search_book':
-        require('./commands/search_book')(args, searchUsingKeyword);
+        require('./commands/search_book')(args, search_keyword);
         break;
       case 'save':
         require('./commands/save_book')(args);
@@ -34,7 +33,7 @@ module.exports = () => {
         break;
       default:
         console.error(
-          `Sorry, "${command}" is not a valid command. Please type 'books-cli help' to see the help menu.`
+          `Sorry, "${command}" is not a valid command. Please type 'books-cli menu' to see the help menu.`
         );
         break;
     }
