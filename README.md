@@ -4,8 +4,6 @@ This is a command line application that allows user to search / save books to a 
 ## Instructions 
 ### **These instructions assume you have already downloaded [Git](https://git-scm.com/downloads) and [Node](https://nodejs.org/en/) with a basic understanding of [the command line](https://www.codecademy.com/articles/command-line-commands).**
 
-   
-
 1. Open terminal application and clone the following repository into a location of your choosing:
     
     `git clone https://github.com/YeFlair/GoogleBooks`
