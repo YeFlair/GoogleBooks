@@ -1,7 +1,7 @@
 # Daryl Corbin: Revision
 This is a command line application that allows user to search / save books to a reading list.
 
-## Instructions 
+## Instructions:
 ### **These instructions assume you have already downloaded [Git](https://git-scm.com/downloads) and [Node](https://nodejs.org/en/) with a basic understanding of [the command line](https://www.codecademy.com/articles/command-line-commands).**
 
 1. Open terminal application and clone the following repository into a location of your choosing:
@@ -16,4 +16,4 @@ This is a command line application that allows user to search / save books to a 
     
     `npm install -g books-cli`
 
-4. Run `npm link` to allow `books` to be accessible throughout this project.
+4. Run `npm link` to allow `books-cli` to be accessible throughout this project.
