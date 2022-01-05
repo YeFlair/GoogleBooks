@@ -1,18 +1,33 @@
 {
     "name": "book-cli",
     "version": "1.0.0",
-    "license": "MIT",
-    "bin": {
-        "book-cli": "bin/book-cli"
+    "description": "A simple CLI that allows one to search the Google Books API and save a reading list.",
+    "main": "index.js",
+    "scripts": {
+      "test": "jest",
+      "watch": "jest --watchAll",
+      "coverage": "jest --coverage"
     },
-    "scripts": {},
+    "bin": {
+      "book-cli": "bin/book-cli"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/YeFlair/GoogleBooks"
+    },
+    "author": "Daryl Corbin",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/YeFlair/GoogleBooks/issues"
+    },
+    "homepage": "https://github.com/YeFlair/GoogleBooks#readme",
     "dependencies": {
-        "axios": "^0.24.0",
-        "minimist": "^1.2.5",
-        "ora": "^6.0.1"
+      "axios": "^0.24.0",
+      "minimist": "^1.2.0",
+      "ora": "^6.0.1"
     },
     "devDependencies": {
-        "@babel/plugin-proposal-class-properties": "^7.16.7",
-        "jest": "^27.4.7"
+      "@babel/plugin-proposal-class-properties": "^7.16.0",
+      "jest": "^27.4.0"
     }
-}
+  }
