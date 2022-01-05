@@ -2,13 +2,9 @@
 This is a command line application that allows user to search / save books to a reading list.
 
 ## Instructions 
-These instructions assume you have Git and Node downloaded w/ basic underatanding of the command line:
+hese instructions assume you have already downloaded [Git](https://git-scm.com/downloads) and [Node](https://nodejs.org/en/) with a basic understanding of [the command line](https://www.codecademy.com/articles/command-line-commands).
 
-    for assistance with installing Git: [Git](https://git-scm.com/downloads)
-    
-    for assiatance with downloading Node.js: [Node]](https://nodejs.org/en/download/) for assiatance with downloading Node.js
-    
-    resourse to get fimilar with the Command Line: [Command_Line](https://www.codecademy.com/article/command-line-commands)
+   
 
 1. Open terminal application and clone the following repository into a location of your choosing:
     
