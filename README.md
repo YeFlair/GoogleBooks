@@ -14,6 +14,6 @@ This is a command line application that allows user to search / save books to a 
 
 3. Install GoogleBooks package as a global
     
-    `npm install -g books-cli`
+    `npm install -g book-cli`
 
-4. Run `npm link` to allow `books-cli` to be accessible throughout this project.
+4. Run `npm link` to allow `book-cli` to be accessible throughout this project.
