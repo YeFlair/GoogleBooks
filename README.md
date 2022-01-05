@@ -1,7 +1,7 @@
-Daryl Corbin: Revision
+# Daryl Corbin: Revision
 This is a command line application that allows user to search / save books to a reading list.
 
-These instructions assume you have Git and Node downloaded w/ basic underatanding of the command line:
+## These instructions assume you have Git and Node downloaded w/ basic underatanding of the command line:
 
     for assistance with installing Git: [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
     
