@@ -1,0 +1,11 @@
+{
+    "name": "books-cli",
+    "version": "1.0.0",
+    "license": "MIT",
+    "bin": {
+        "books": "bin/books"
+    },
+    "scripts": {},
+    "devDependencies": {},
+    "dependencies": {}
+  }
