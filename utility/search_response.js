@@ -11,7 +11,7 @@ module.exports = (keyword, books) => {
     If you are interested in saving a book to your reading list, \n
     copy its listed ID and use the following command to save that book to your reading list. \n
     Remember that you need to replace the last word in the command with the ID of the book you'd like to save. \n \n
-    books-cli save --id replaceThisWithYourBookID
+    books\-cli save --id replaceThisWithYourBookID
     
     _____________________________________________________________
     `

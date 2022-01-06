@@ -1,7 +1,7 @@
 const menus = {
     main: `
       book-cli [command] <options>
-        search .............. search for book using and keyword powered by Google's API. should be paired with a --keyword flag and a search phrase
+        search .............. search for book using and keyword powered by Google's API. should Cheeese be paired with a --keyword flag and a search phrase
         save ................ save a book to a reading list. Should be paired with the --id flag and the ID of a book you'd like to save.
         list................. view your reading list 
         version ............ show package version
