@@ -8,6 +8,8 @@
       "watch": "jest --watchAll",
       "coverage": "jest --coverage"
     },
+    
+    "preferGlobal": true,
     "bin": {
       "book-cli": "bin/book-cli"
     },
@@ -15,8 +17,20 @@
       "type": "git",
       "url": "git+https://github.com/YeFlair/GoogleBooks"
     },
+
+    "engines": {
+        "node": ">=8"
+      },
+    "keywords": [
+        "list",
+        "save",
+        "search"
+      ],
+
+      "type":"module",  
+
     "author": "Daryl Corbin",
-    "license": "ISC",
+    "license": "MIT",
     "bugs": {
       "url": "https://github.com/YeFlair/GoogleBooks/issues"
     },
